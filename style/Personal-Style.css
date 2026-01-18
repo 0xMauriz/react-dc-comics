@@ -1,0 +1,12 @@
+.FAQ-Section {
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+}
+
+.Z-Index-First {
+    z-index: 1;
+}
+
+.Z-Index-Last {
+    z-index: 2;
+}
