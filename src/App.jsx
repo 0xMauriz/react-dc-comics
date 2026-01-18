@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from '../components/Header.jsx'
+import ObjectContainer from '../components/ObjectContainer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,9 +9,10 @@ function App() {
   return (
     <>
       <Header />
-      <div className="d-flex h-20 w-100 justify-content-center align-items-center text-bg-success">
-        <p className="fs-1">Heyfratm</p>
+      <div className="d-flex h-20 justify-content-center align-items-center bg-black">
+        <p className="fs-1"> Content goes here </p>
       </div>
+      <ObjectContainer />
     </>
   )
 }
