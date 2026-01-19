@@ -38,6 +38,10 @@
     width: 30% !important;
 }
 
+.w-33 {
+    width: calc(100% / 3) !important;
+}
+
 .w-40 {
     width: 40% !important;
 }
@@ -68,4 +72,8 @@
 
 .fs-8 {
     font-size: 0.25rem !important;
+}
+
+.text-light-gray {
+    color: rgb(182, 182, 182);
 }

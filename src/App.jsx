@@ -4,6 +4,7 @@ import Header from './components/Header.jsx'
 import ObjectContainer from './components/ObjectContainer.jsx'
 import FAQ from './components/Links.jsx'
 import Footer from './components/Footer.jsx'
+import ComicsData from './assets/scripts/comics.js'
 
 function App() {
   const [count, setCount] = useState(0)
