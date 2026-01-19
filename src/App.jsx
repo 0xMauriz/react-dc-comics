@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Header from '../components/Header.jsx'
-import ObjectContainer from '../components/ObjectContainer.jsx'
-import FAQ from '../components/FAQ.jsx'
-import Footer from '../components/Footer.jsx'
+import Header from './components/Header.jsx'
+import ObjectContainer from './components/ObjectContainer.jsx'
+import FAQ from './components/Links.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)

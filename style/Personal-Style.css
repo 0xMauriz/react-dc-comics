@@ -1,6 +1,15 @@
-.FAQ-Section {
-    background-image: url("../img/footer-bg.jpg");
+.Links-Section {
+    background-image: url("../src/assets/img/footer-bg.jpg");
     background-size: cover;
+}
+
+.Default-Imgsize {
+    height: 50px;
+    width: 65px;
+}
+
+.Anchor-NoEffect {
+    text-decoration: none;
 }
 
 .Z-Index-First {

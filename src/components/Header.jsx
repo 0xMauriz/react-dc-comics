@@ -1,12 +1,11 @@
-import { useState } from 'react'
 
-function FAQ() {
-    const [count, setCount] = useState(0)
+function Header() {
 
     return (
         <>
-            <div className="d-flex h-45 w-100 FAQ-Section Z-Index-Last">
-                <div className="w-40 d-flex justify-content-around flex-wrap">
+            <div className="d-flex h-15 w-100 justify-content-around align-items-center">
+                <div className="d-flex w-10 h-75 d-flex justify-content-end"><img src="../src/assets/img/dc-logo.png" alt="" /></div>
+                <div className="w-60 d-flex justify-content-around">
                     <a href="" className='px-3 fs-6 Anchor-NoEffect'>CHARACTERS</a>
                     <a href="" className='px-3 fs-6 Anchor-NoEffect'>COMICS</a>
                     <a href="" className='px-3 fs-6 Anchor-NoEffect'>MOVIES</a>
@@ -18,10 +17,9 @@ function FAQ() {
                     <a href="" className='px-3 fs-6 Anchor-NoEffect'>NEWS</a>
                     <a href="" className='px-3 fs-6 Anchor-NoEffect'>SHOP</a>
                 </div>
-                <div className="d-flex w-60 h-75 d-flex justify-content-around align-items-center"><img className='' src="../img/dc-logo-bg.png" alt="" /></div>
             </div>
         </>
     )
 }
 
-export default FAQ
+export default Header
