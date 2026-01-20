@@ -8,6 +8,15 @@
     width: 65px;
 }
 
+.Card-Width {
+    width: calc(100% / 6);
+}
+
+.Comics-Imgsize {
+    height: 100px;
+    width: 130px;
+}
+
 .Anchor-NoEffect {
     text-decoration: none;
 }

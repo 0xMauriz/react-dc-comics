@@ -5,12 +5,14 @@ export default function Cards() {
 
     return (
         <>
-            <div className="h-40">
-                <div className="h-80">
-                    <img className="Default-Imgsize" src={comics[0].thumb} alt="" />
+            {comics.map((comic, index) => (
+                <div className="h-45 d-flex flex-wrap">
+                    <div className="h-80 Card-Width">
+                        <img key={index} className="Comics-Imgsize" src={comic.thumb} alt="" />
+                    </div>
+                    <div className="h-20 w-50 d-flex"><p>{comic.title}</p></div>
                 </div>
-
-            </div>
+            ))}
         </>
     )
 }

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="d-flex h-36 justify-content-center align-items-center bg-black position-relative">
+      <div className="d-flex h-36 justify-content-center align-items-center bg-black position-relative flex-wrap">
         <Cards />
       </div>
       <ObjectContainer />
