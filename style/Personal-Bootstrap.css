@@ -98,6 +98,10 @@
     width: 80% !important;
 }
 
+.w-90 {
+    width: 90% !important;
+}
+
 .fs-6 {
     font-size: 0.75rem !important;
 }
